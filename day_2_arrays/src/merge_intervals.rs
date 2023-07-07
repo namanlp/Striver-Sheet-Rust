@@ -1,3 +1,8 @@
+// Question Link : https://leetcode.com/problems/merge-intervals/description/
+
+// My solution Time complexity : O(NlogN)
+// My solution Space complexity : O(N)
+
 use std::cmp::max;
 
 impl Solution {
