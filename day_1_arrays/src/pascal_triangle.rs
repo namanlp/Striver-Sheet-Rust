@@ -1,3 +1,8 @@
+// Question Link : https://takeuforward.org/data-structure/program-to-generate-pascals-triangle/
+
+// My solution Time Complexity : O( N^2 )
+// My solution Space Complexity : O( N^2 )
+
 impl Solution {
     pub fn generate(num_rows: i32) -> Vec<Vec<i32>> {
         let n = num_rows as usize;
