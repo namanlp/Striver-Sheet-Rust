@@ -9,6 +9,8 @@ impl Solution {
 
     // We know that all the elements are from 1 to n
     // So, we can use n+1 as counter to store the frequency of the elements in the table itself.
+
+    // We can alternatively convert them to a negative number
     pub fn find_duplicate(mut nums: Vec<i32>) -> i32 {
         let num = nums.len()+3;
 
