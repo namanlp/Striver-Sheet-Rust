@@ -1,3 +1,7 @@
+// Question Link : https://leetcode.com/problems/find-the-duplicate-number/
+// My solution Time complexity : O(n)
+// My solution Space complexity : O(1)
+
 impl Solution {
     pub fn find_duplicate(mut nums: Vec<i32>) -> i32 {
         let num = nums.len()+3;
