@@ -1,3 +1,9 @@
+// Question Link : https://leetcode.com/problems/merge-sorted-array/
+
+// My solution time complexity : O( n+m )
+// My solution space complexity : O( 1 )
+
+
 impl Solution {
     pub fn merge(nums1: &mut Vec<i32>, m: i32, nums2: &mut Vec<i32>, n: i32) {
         let mut i = m as usize;
