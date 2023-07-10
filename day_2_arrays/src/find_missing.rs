@@ -1,4 +1,6 @@
 // Question Link : https://leetcode.com/problems/missing-number/
+// My solution Time complexity : O(n)
+// My solution Space complexity : O(1)
 
 impl Solution {
     pub fn missing_number(nums: Vec<i32>) -> i32 {
