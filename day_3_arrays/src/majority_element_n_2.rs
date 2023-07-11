@@ -1,3 +1,8 @@
+// Question Link : https://leetcode.com/problems/majority-element/
+// My solution Time complexity : O(n log n)
+// My solution Space complexity : O(n)
+
+
 use std::collections::BTreeMap;
 
 impl Solution {
