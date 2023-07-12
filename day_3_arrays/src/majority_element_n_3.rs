@@ -16,7 +16,7 @@ impl Solution {
         }
         let mut ans = Vec::new();
         for (k, v) in frequency {
-            if v>=n/3 {
+            if v>n/3 {
                 ans.push(k);
             }
         }
